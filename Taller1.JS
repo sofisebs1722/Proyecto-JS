@@ -1,0 +1,15 @@
+//Archivo de práctica y pruebas de JavaScript.
+/* 
+Taller1
+Fecha 23/02/2022
+Realizado por: Sofia Lopez, Sebastián Huertas
+*/
+var Nombre_del_estudiante; //string
+var Grado_estudiante; //string
+var Edad_estudiante; //int
+Grado_estudiante= "10A";   
+Nombre_del_estudiante= "Sofia Lopez, Sebastián Huertas";
+var valor= prompt ("");
+console.log ("La edad del estudiante es " + valor );
+console.log ("los estudiantes " + Nombre_del_estudiante + " Del grado " + Grado_estudiante + " tienen " + valor + "años ");
+
