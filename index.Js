@@ -45,3 +45,31 @@ console.log(valor );
 //concatenado 
 console.log("" + valor );
 prompt ("ingrese un valor: ");
+//Operadores
+//Suma
+var Suma;
+Suma=5+4;
+console.log(Suma);
+var a=12;
+Suma=a+8;
+console.log(Suma);
+var b=20;
+Suma= a+b;
+console.log(Suma);
+//Resta
+var Resultado;
+Resultado=a-b; //-8
+console.log(Resultado);
+Resultado=b-a; //8
+console.log(Resultado);
+//Multiplicación
+var producto
+producto=a*b;
+console.log(producto);
+//Division
+var cociente
+cociente=a/b;
+console.log(cociente);
+cociente=b/a;
+console.log(cociente);
+
