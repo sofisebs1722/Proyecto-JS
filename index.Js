@@ -48,13 +48,13 @@ prompt ("ingrese un valor: ");
 //Operadores
 //Suma
 var Suma;
-Suma=5+4;
+Suma=5+4; //9 
 console.log(Suma);
 var a=12;
-Suma=a+8;
+Suma=a+8; //20
 console.log(Suma);
 var b=20;
-Suma= a+b;
+Suma= a+b; //32
 console.log(Suma);
 //Resta
 var Resultado;
@@ -64,12 +64,19 @@ Resultado=b-a; //8
 console.log(Resultado);
 //Multiplicación
 var producto
-producto=a*b;
+producto=a*b; //240
 console.log(producto);
 //Division
 var cociente
-cociente=a/b;
+cociente=a/b; //0.6
 console.log(cociente);
-cociente=b/a;
+cociente=b/a; //1.6666667
 console.log(cociente);
-
+//orden de operaciones 
+var result 
+result=a*b; //240
+console.log(result);
+result= a*b-10; //230
+console.log(result);
+result=a*(b-10); //120
+console.log(result);
