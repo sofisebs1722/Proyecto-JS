@@ -80,3 +80,8 @@ result= a*b-10; //230
 console.log(result);
 result=a*(b-10); //120
 console.log(result);
+//exponente/potencia
+var exponente=3**2;
+console.log(exponente);
+exponente=3**3; //3**3 =27
+console.log(exponente);
