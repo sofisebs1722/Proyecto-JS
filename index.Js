@@ -85,3 +85,42 @@ var exponente=3**2;
 console.log(exponente);
 exponente=3**3; //3**3 =27
 console.log(exponente);
+
+//cadenas o string
+var cadenita1="3";
+var cadenita2="5";
+var sumacadenas= cadenita1 + cadenita2; 
+console.log(sumacadenas);
+
+var nombrecito= "Sofia";
+var apellido= "Montoya";
+var nombreCompleto= nombrecito + " " +  apellido;
+console.log(nombreCompleto);
+
+var longitud= nombrecito.length;
+console.log(longitud);
+console.log(nombreCompleto.length);
+
+//Encontrar caracteres dada la posición en el vector
+var primeraLetra;
+primeraLetra= nombrecito[0];
+console.log(primeraLetra);
+console.log(nombrecito[1]);
+console.log(nombrecito[2]);
+console.log(nombrecito[3]);
+console.log(nombrecito[4]);
+
+//Encontrar la última posición de una cadena o vector.
+//Se debe buscar la longitud de la cadena y restarle 1 para encontrar la ultima letra.
+console.log(nombrecito[nombrecito.length-1]);
+
+//Valores inmutables
+//Las posiciones de una cadena se pueden consultar pero no se pueden reasignar su valor.
+nombrecito[0]= "p";
+console.log(nombrecito);
+nombrecito= "Sebastián";
+console.log(nombrecito);
+
+
+
+
