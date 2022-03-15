@@ -1,0 +1,12 @@
+Taller 1: Nota 4.2
+    * El valor de la variable Grado_estudiante debía ser inicializado, no asignado.
+    * Al momento de solicitar la edad del estudiante por teclado, este valor debía guardarse en la variable correpondiente Edad_estudiante
+    * La instrucción de la línea 13 sobra.
+
+Taller 2: Nota 4
+    * Mensajes por consola innecesarios en las lineas 8 y 11.
+    * Mensajes punto 2 poco claros.
+    * Operacion linea 20 incorrecta
+    * Mensaje linea 22 poco claro
+    * En general, los mensajes de resultados no cumplen con lo pedido en el Talle
+    * Formula linea 47 incorrecta
