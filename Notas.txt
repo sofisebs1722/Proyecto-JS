@@ -8,5 +8,5 @@ Taller 2: Nota 4
     * Mensajes punto 2 poco claros.
     * Operacion linea 20 incorrecta
     * Mensaje linea 22 poco claro
-    * En general, los mensajes de resultados no cumplen con lo pedido en el Talle
+    * En general, los mensajes de resultados no cumplen con lo pedido en el Taller
     * Formula linea 47 incorrecta

@@ -121,6 +121,31 @@ console.log(nombrecito);
 nombrecito= "Sebastián";
 console.log(nombrecito);
 
+//Parseo o casting
+/*
+Se trata de convertir las variables a otro tipo de dato, los cambios existentes son:
+- a entero parseInt()
+- a decimal parseFloat()
+- a cadena String()
+*/
 
+//Convertir variable
+var entero1= prompt("Ingrese un entero");
+var entero2= prompt("Ingrese otro entero");
+var sumaE = entero1 + entero2;
+console.log("sin ParseInt" + sumaE )
 
+//Forma 1
+/*convertir el dato justo en el momento en el que se recibe por teclado  
+esto implica que cuando se llame la variable ya este convertida al tipo de dato deseado
+*/
 
+ entero1= parseInt(prompt("Ingrese un entero"));
+ entero2= parseInt(prompt("Ingrese otro entero"));
+ sumaE = entero1 + entero2;
+ console.log ("convertido " + sumaE) 
+
+ //P=Alt+Base+Alt+base 
+ var Alt=parseInt(prompt("Ingrese el valor de la altura"));
+ var  Base=parseInt(prompt("Ingrese el valor de la base"));
+ console.log(Alt+Base+Alt+Base);
