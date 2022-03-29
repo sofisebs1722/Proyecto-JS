@@ -25,7 +25,7 @@ var pesos;
 var horas;
 horas = prompt ("ingrese la duración de la llamada ");
 pesos = horas * 60 * 120;
-console.log("El costo de la llamda es " + pesos);
+console.log("El costo de la llamada de " + horas + "es de " + pesos + " pesos ");
 // punto 6
 var horaClase;
 var cobroClase;
@@ -35,4 +35,4 @@ cobroClase = 40000;
 cobroAdicional = 25000;
 horaClase = prompt("Ingrese cuantas horas duró la clase ");
 ValorClase = 40000 + (25000*(horaClase-1));
-console.log("El costo de la clase es " + ValorClase);
+console.log("Las horas de clase son " + horaClase +  " y el costo es de " + ValorClase);
