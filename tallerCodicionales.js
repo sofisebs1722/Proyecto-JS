@@ -61,22 +61,24 @@ if(numerito<50) {
 
 //punto 6 
 
-if(numerito==83) {
-  console.log("numerito es mayor que 80 pero no mayor ni igual a 100")
-}
+numerito = 97
 
+//punto 7
 
+numerito = 62
 
+//punto 8 
 
-
+numerito = 106 
 
 //punto 9
 
-var diaActual ="martes";
-
-
-
-
+var dia_actual ="jueves";
+if(dia_actual=="jueves") {
+  console.log ("puede asistir al polideportivo");
+}else{ 
+  console.log ("No puede asistir al polideportivo");
+}
 //punto 10
 
 var valor1 =3;
@@ -88,5 +90,34 @@ if(valor2 == 0){
   console.log(valor1/valor2)
 }
 
+//punto 11
 
+var dia="lunes"
 
+if(dia=="lunes"){
+  console.log ("el plato de hoy es, arroz con pollo")
+}else if(dia=="martes"){
+  console.log("el plato de hoy es, chuleta de cerdo/pollo")
+}else if(dia=="miercoles"){
+  console.log("el plato de hoy es, frijoles")
+}else if(dia=="jueves"){
+  console.log("el plato de hoy es, sancocho de pescado")
+}else if(dia=="viernes"){
+  console.log("el plato de hoy es, bandeja paisa")
+}else if(dia=="sabado"){
+  console.log("el plato de hoy es, ajiaco")
+}else if(dia=="domingo"){
+  console.log("el plato de hoy es, sancocho de gallina")
+}
+
+//punto 12 
+
+var letra= "7";
+
+if(letra== "a" || letra=="e" || letra=="i" || letra=="o" || letra=="u"){
+  console.log ("la letra es una vocal")
+}else if(letra=="0" || letra=="1" || letra=="2" || letra=="3" || letra=="4" ||letra=="5" || letra=="6" || letra== "7" || letra=="8" || letra=="9"){
+  console.log( "la letra es un numero");
+}else{ 
+console.log("La letra es consonante")
+}
