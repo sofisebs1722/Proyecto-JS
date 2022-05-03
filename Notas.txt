@@ -14,3 +14,15 @@ Taller 2: Nota 4
     * En general, los mensajes de resultados no cumplen con lo pedido en el Taller
     * Formula linea 47 incorrecta
 Taller 3 (Recuperación): Nota 5
+
+
+**************************** segundo periodo
+
+Taller 1: Nota 4.2
+    * linea 39, falta una condicion
+    * linea 52, debe incluir al 50 y el 80. Esta condicion acepta unicamente numeros mayores que 80, lo cual está mal
+    * linea 54, no debe tener =
+    * linea 56, no tiene condicon válida
+
+
+enlace examen: https://acortar.link/wzqjho
