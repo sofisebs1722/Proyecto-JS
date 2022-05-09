@@ -26,3 +26,7 @@ Taller 1: Nota 4.2
 
 
 enlace examen: https://acortar.link/wzqjho
+
+Examen: Nota 3.5
+    * punto 4 no está resuelto
+    * punto 6, limita al cliente a comprar solo 5 llantas, de lo contrario, si compra más llantas o menos, el mensaje será console.log("por el momento no se poseen ese tipo de llantas"). No obtiene puntos
