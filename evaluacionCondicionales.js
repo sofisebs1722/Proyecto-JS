@@ -39,8 +39,6 @@ numero="2"
     numero=13
 //Respuesta 3.D
     numero=69   
-
-// punto 4
 Num1= 5;
 Num2= 6;
 
