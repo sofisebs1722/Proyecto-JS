@@ -39,14 +39,15 @@ console.log("El precio a pagar es ", acumulador)
 
 
 console.log("Cuarto punto")
-var precioA
-var compra=1
+
+var precioA=0
 var acumulador=0
-var respuesta="si"
-while(respuesta=="si"){
-precioA=parseInt(prompt("Por favor ingrese el precio de cada uno"))
+var descuento=0
+var ciclo3=1
+var respuesta
+while(ciclo3<=cajero){
+precioA=parseInt(prompt("Por favor ingrese el precio de cada articulo"))
 acumulador= precioA+acumulador
-compra+=1
 respuesta=prompt("Ingrese si quiere seguir con mas objetos")
 }
 if(cajero>=8||cajero<=14){
@@ -58,13 +59,14 @@ if(cajero>=8||cajero<=14){
 }else if(cajero>=25){
     acumulador=precioA+acumulador*0.8
     console.log("El total pagar es ", acumulador, " y su descuento es del 20%")
-}else if (cajero<8){
+}else if (cajero>=1 || cajero<=8){
     console.log("El total a pagar es ", acumulador, " y no tiene ningun descuento")
 
 }
-    
+    //no sabemos aprecie el codigo y 0.5 <3
     
     console.log("Quinto punto")
+
 var numEstudiante=prompt("Ingrese el numero de estudiantes")
 var contadorEstudiantes=1
 while(contadorEstudiantes<=numEstudiante){
@@ -101,3 +103,4 @@ while(contadorEstudiantes<=numEstudiante){
         console.log("La cantidad de estudiantes no es sufuciente para curso de verano")
  
     }
+
