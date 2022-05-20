@@ -50,16 +50,16 @@ precioA=parseInt(prompt("Por favor ingrese el precio de cada articulo"))
 acumulador= precioA+acumulador
 respuesta=prompt("Ingrese si quiere seguir con mas objetos")
 }
-if(cajero>=8||cajero<=14){
+if(cajero>=8 &&cajero<=14){
     acumulador=precioA+acumulador*0.9
     console.log("El total pagar es ", acumulador, " y su descuento es del 10%")
-}else if(cajero>=15||cajero<=24){
+}else if(cajero>=15&&cajero<=24){
     acumulador=precioA+acumulador*0.85
     console.log("El total pagar es ", acumulador, " y su descuento es del 15%")
 }else if(cajero>=25){
     acumulador=precioA+acumulador*0.8
     console.log("El total pagar es ", acumulador, " y su descuento es del 20%")
-}else if (cajero>=1 || cajero<=8){
+}else if (cajero>=1 && cajero<=8){
     console.log("El total a pagar es ", acumulador, " y no tiene ningun descuento")
 
 }
