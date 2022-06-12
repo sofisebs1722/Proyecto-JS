@@ -40,3 +40,7 @@ examen while: nota 5 con el punto bonus del taller de while
     * linea 51, no hace nada esa variable ya que no se compara con nada
     * operacion del descuento es incorrecta
     * linea 66... pues no, saca 0 en este punto 😅
+
+ciclo for: nota 4
+    * punto 4, el ciclo del numero mayor no funciona correctamente porque siempre imprime el primer numero del arreglo
+    * linea 62, debía ser i y no 1 de esa manera solo compara el nombre con la posición 1 del arreglo
