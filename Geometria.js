@@ -1,20 +1,15 @@
-
 function suma (num1, num2){
     var resultado = num1 + num2;
-    var mensaje = "el resultado de sumar "+ num1 + " y " + num2 + " es " + resultado;
     return resultado; 
 }
 function multiplicación (num1, num2){
     var resultado = num1 * num2;
-    var mensaje = "el resultado de multiplicar "+ num1 + " y " + num2 + " es " + resultado;
     return resultado; 
 }
 function potencia (num1, num2){
-    var resultado = num1 ** num2;
-    var mensaje = "el resultado de la potencia "+ num1 + " y " + num2 + " es " + resultado;
+    var resultado = num1 ** num2;   
     return resultado; 
 }
-
 function main_geometria(){
     var eleccion=prompt("Por favor ingrese que desea hallar:\n 1.Area de la figura \n 2.Perimetro de la figura")
     var eleccionFigura=prompt("Por favor ingrese que figura desea: \n 1.Cuadrado \n 2.Rectangulo")
@@ -33,5 +28,4 @@ function main_geometria(){
     }else{
         console.log("Esta opcion no se encuentra en el menu")
     }
-    
 }
