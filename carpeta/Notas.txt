@@ -49,3 +49,8 @@ ciclo for: nota 4
 
 Geometría:
     Nota: 5
+
+
+cuarto periodo
+    taller 1:
+        nota: 5
