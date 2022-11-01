@@ -1,0 +1,51 @@
+Sofia Lopez, Sebastian Huertas
+
+
+Taller 1: Nota 4.2
+    * El valor de la variable Grado_estudiante debía ser inicializado, no asignado.
+    * Al momento de solicitar la edad del estudiante por teclado, este valor debía guardarse en la variable correpondiente Edad_estudiante
+    * La instrucción de la línea 13 sobra.
+
+Taller 2: Nota 4
+    * Mensajes por consola innecesarios en las lineas 8 y 11.
+    * Mensajes punto 2 poco claros.
+    * Operacion linea 20 incorrecta
+    * Mensaje linea 22 poco claro
+    * En general, los mensajes de resultados no cumplen con lo pedido en el Taller
+    * Formula linea 47 incorrecta
+Taller 3 (Recuperación): Nota 5
+
+
+**************************** segundo periodo
+
+Taller 1: Nota 4.2
+    * linea 39, falta una condicion
+    * linea 52, debe incluir al 50 y el 80. Esta condicion acepta unicamente numeros mayores que 80, lo cual está mal
+    * linea 54, no debe tener =
+    * linea 56, no tiene condicon válida
+
+
+enlace examen: https://acortar.link/wzqjho
+
+Examen condicionales: Nota 5
+    * punto 4 no está resuelto
+    * punto 6, limita al cliente a comprar solo 5 llantas, de lo contrario, si compra más llantas o menos, el mensaje será console.log("por el momento no se poseen ese tipo de llantas"). No obtiene puntos
+
+taller while: nota 6
+    * linea 58, el mensaje no tiene nada que ver con lo que debe imprimir
+    * Suma ambos bonus
+
+examen while: nota 5 con el punto bonus del taller de while 
+    * linea 48, ¿que hace cajero? no debe pedir la cantidad de articulos
+    * linea 51, no hace nada esa variable ya que no se compara con nada
+    * operacion del descuento es incorrecta
+    * linea 66... pues no, saca 0 en este punto 😅
+
+ciclo for: nota 4
+    * punto 4, el ciclo del numero mayor no funciona correctamente porque siempre imprime el primer numero del arreglo
+    * linea 62, debía ser i y no 1 de esa manera solo compara el nombre con la posición 1 del arreglo
+    
+
+
+Geometría:
+    Nota: 5
